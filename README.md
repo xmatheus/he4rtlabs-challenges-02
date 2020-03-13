@@ -38,7 +38,7 @@ Pense em um formulário onde você deverá preencher os seguintes campos:
 
 ## Desafio
 
-Wireframe: https://wireframe.cc/pro/edit/323006
+Wireframe: https://wireframe.cc/pro/pp/115e33462323006
 
 Crie uma pagina usando o conceito do wireframe abaixo com os seguintes elementos:
 
@@ -75,3 +75,4 @@ Crie uma pagina usando o conceito do wireframe abaixo com os seguintes elementos
         ```
         * Caso não siga o padrão do json acima, deverá retornar um erro para o usuário invalidando o processo.
     4. Exportar (Registros)
+    
