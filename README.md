@@ -41,7 +41,7 @@ A ideia do desafio é mostrar que para cotar um projeto, é necessário um pouco
 
 Wireframe: https://wireframe.cc/pro/pp/115e33462323006
 
-Crie uma pagina usando o conceito do wireframe abaixo com os seguintes elementos:
+Crie uma pagina usando o conceito do wireframe acima com os seguintes elementos:
 
 * Header
     1. Logo da He4rt Developers
@@ -121,13 +121,13 @@ O template passado no wireframe é OPCIONAL. Logo, você pode sim fazer algo no 
 
 ### Conclusão do Desafio
 
-Commite as alterações feitas e faça um post ou no nosso Discord na sala #he4rtlabs-challenges ou um post no Twitter com a hashtag #He4rtLabsChallenges e iremos divulgar e/ou fazer um review do seu código.
+Commite as alterações feitas e faça um post ou no nosso Discord na sala `#he4rtlabs-challenges` ou um post no Twitter com a hashtag `#He4rtLabsChallenges` e iremos divulgar e/ou fazer um review do seu código.
 
 Caso você se sinta confortável, deixamos um arquivo chamado REVIEW.MD para você fazer alguns comentários sobre o desafio e o que você achou no geral.
 
 ## Créditos
 
-Este desafio foi desenvolvido pelo grupo He4rt Developers para uso livre da comunidade.
+Este desafio foi desenvolvido pelo grupo [He4rt Developers](https://heartdevs.com) para uso livre da comunidade.
 
 ## Autor
 
