@@ -33,8 +33,9 @@ Pense em um formulário onde você deverá preencher os seguintes campos:
 
 4. Valor da funcionalidade
 
-    Deverá ser gerado baseado no **valor da sua hora** multiplicado pelos valores somados das horas de desenvolvimento e testes para melhor visualização do cliente (NÃO ENTRARÁ NO FORMULÁRIO)
+    Deverá ser gerado baseado no **valor da sua hora** multiplicado pelos valores somados das horas de desenvolvimento e testes para melhor visualização do cliente.
 
+A ideia do desafio é mostrar que para cotar um projeto, é necessário um pouco mais de cuidado para o que você está passando pro cliente e que ambas as partes estejam sempre alinhadas sobre o que está acordado.
 
 ## Desafio
 
@@ -66,7 +67,7 @@ Crie uma pagina usando o conceito do wireframe abaixo com os seguintes elementos
                 "devHours": 14,
                 "testHours": 3 
             },
-            {
+            {~
                 "feature": "User CRUD",
                 "devHours": 14,
                 "testHours": 3 
@@ -75,4 +76,59 @@ Crie uma pagina usando o conceito do wireframe abaixo com os seguintes elementos
         ```
         * Caso não siga o padrão do json acima, deverá retornar um erro para o usuário invalidando o processo.
     4. Exportar (Registros)
-    
+        * Ao clicar no botão de exportar, deve ser gerado um arquivo **features.json** com todos os dados que estão na área de funcionalidades.
+        * O modelo deve seguir o mesmo padrão do exemplo abaixo: 
+         ```json
+        [
+            {
+                "feature": "string",
+                "devHours": int,
+                "testHours": int 
+            },
+            ...
+        ]
+        ```
+
+* Valor Hora
+
+    1. Deverá ter um input com o valor (decimal) da sua hora.
+
+* Lista de Funcionalidades
+    1. Deverá ser feito em um tipo de lista (cards, tabelas etc) com os elementos do formulário.
+    2. Deverá ter um atributo que será o calculo dos valores referentes a funcionalidade, sendo o calculo:
+    ```text
+    valorFeature = valorHora * ( horasDev + horasTeste)
+    ```
+    3. As colunas finais serão: Funcionalidade, Horas Dev, Horas Teste, Valor
+
+* Sidebar
+    1. Deverá ter um contador de quantas funcionalidades estão sendo feitas
+    2. Deverá ter um contador de Horas de Desenvolvimento do projeto
+    3. Deverá ter um contador de Horas de Teste do projeto
+    4. Deverá ter uma somatória dos valores de todas as features como um valor total do PROJETO.
+
+* Rodapé (Footer)
+    1. Colocar links referentes as suas redes sociais e uma referencia a He4rtLabsChallenges.
+
+Cuidados a se tomar:
+
+- Todas as ações que forem tomadas, deverão ter algum retorno. Não serão aceito botões que não executam sem um retorno prévio pro usuário.
+- Pense nessa lista de funcionalidades como um **objeto**.
+
+### Comentários
+
+O template passado no wireframe é OPCIONAL. Logo, você pode sim fazer algo no seu estilo porém devem ter os mesmos elementos descritos no desafio. Caso vocẽ faça um wireframe diferente que possa agregar no desafio, abra um pull request para que possamos avaliar.
+
+### Conclusão do Desafio
+
+Commite as alterações feitas e faça um post ou no nosso Discord na sala #he4rtlabs-challenges ou um post no Twitter com a hashtag #He4rtLabsChallenges e iremos divulgar e/ou fazer um review do seu código.
+
+Caso você se sinta confortável, deixamos um arquivo chamado REVIEW.MD para você fazer alguns comentários sobre o desafio e o que você achou no geral.
+
+## Créditos
+
+Este desafio foi desenvolvido pelo grupo He4rt Developers para uso livre da comunidade.
+
+## Autor
+
+- Daniel Reis (danielhe4rt) - Back-end Developer && He4rt Developers Leader - [Portfólio](https://danielheart.dev) - [Twitter](https://twitter.com/danielhe4rt)
