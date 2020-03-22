@@ -1,0 +1,30 @@
+.table-active {
+  color: 3px solid rgba(17, 17, 240, 0.16);
+}
+
+.list-group-item,
+.list-group-item:hover {
+  background: none !important;
+  color: #444;
+}
+
+footer {
+  padding: 10px 0px 0px 0px;
+  background-color: #593196 !important;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 23px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
+}
+footer a:hover {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
+}
