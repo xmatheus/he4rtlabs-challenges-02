@@ -141,6 +141,7 @@ const loadJson = (file) => {
 
 	if (!hourValue) {
 		alert("Valor da hora é R$ 0?");
+		return;
 	}
 
 	file.map((elem) => {
@@ -185,10 +186,10 @@ const exportJson = () => {
 };
 
 const saveJson = (file) => {
-	var dataStr =
+	let dataStr =
 		"data:text/json;charset=utf-8," +
 		encodeURIComponent(JSON.stringify(file, null, 4));
-	var downloadAnchorNode = document.createElement("a");
+	let downloadAnchorNode = document.createElement("a");
 	downloadAnchorNode.setAttribute("href", dataStr);
 	downloadAnchorNode.setAttribute("download", "yourJson" + ".json");
 	document.body.appendChild(downloadAnchorNode); // required for firefox
