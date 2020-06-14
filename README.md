@@ -4,7 +4,7 @@ Uma planilha com a cotação de todo o projeto a ser desenvolvido para melhor vi
 
 ## Resultado final
 
-> não ta responsivo
+> não ta responsivo ainda :}
 
 <img src="https://raw.githubusercontent.com/xmatheus/he4rtlabs-challenges-02/master/src/assets/demo/Screen%20Capture_select-area_20200614001856.png">
 
