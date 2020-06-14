@@ -2,6 +2,13 @@
 
 Uma planilha com a cotação de todo o projeto a ser desenvolvido para melhor visualização do cliente.
 
+## Resultado final
+
+<img src="https://raw.githubusercontent.com/xmatheus/he4rtlabs-challenges-02/master/src/assets/demo/Screen%20Capture_select-area_20200614001856.png">
+
+<img src="https://raw.githubusercontent.com/xmatheus/he4rtlabs-challenges-02/master/src/assets/demo/Desktop%20-%204.png">
+
+
 ## Qual é o valor que o desafio entrega?
 
 Quando você vai cotar um freelance, não adianta saber apenas o quanto vale a sua hora mas sim quantas horas você vai gastar fazendo cada uma das funcionalidades. Mas nem tudo no projeto é desenvolvimento e é sobre isso que devemos entender neste desafio.
